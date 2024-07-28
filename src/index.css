@@ -19,12 +19,12 @@
   padding: 0;
   margin: 0;
  }
-body{
+
+ body{
   display: flex;
   justify-content: center;
   background-color: black;
 }
-
 
 .page{
   display: flex;
@@ -33,7 +33,6 @@ body{
   align-items: center;
   background-color: white;
   width: 800px;
-
 }
 
 /* HEADER */
@@ -50,6 +49,7 @@ body{
   width: 100%;
   gap: 10px;
 }
+
 /* HEADER ICON (GOLBE) */
 .globe-icon{
   width: 40px;
@@ -57,14 +57,9 @@ body{
 
 }
 
-
-
-
-
 /* Card Body  */
 
 .card-container{
-
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -103,6 +98,7 @@ body{
   height: 90%;
   padding:10px ;
 }
+
 .icon{
   height: 20px;
   width: 20px;
@@ -112,10 +108,9 @@ body{
   font-family:sans-serif;
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  /* gap: 20px; */
   align-items: center;
 }
-
 
 .card-right-top > p{
   font-family: "Roboto Mono", monospace;
@@ -124,7 +119,10 @@ body{
   font-style: normal;
   font-size: 25px;
   text-transform: uppercase;
+  margin-left: 5px;
+  margin-right: 20px;
 }
+
 .card-right-top > a{
   color: #918E9B;
   font-size: 20px;
