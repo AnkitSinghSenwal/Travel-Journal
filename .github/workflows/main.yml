@@ -10,5 +10,5 @@ jobs:
       uses: xRealNeon/VuePagesAction@1.0.1
       with:
         username: 'AnkitSinghSenwal'
-        reponame: 'Travel-journal'
+        reponame: 'Travel-Journal'
         token: ${{ secrets.GITHUB_TOKEN }} # Leave this line unchanged
