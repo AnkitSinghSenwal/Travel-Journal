@@ -1,0 +1,143 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  
+  color-scheme: light dark;
+  background-color: #242424;
+  
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* // <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 700 */
+
+*{
+  padding: 0;
+  margin: 0;
+ }
+body{
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+
+.page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 800px;
+
+}
+
+/* HEADER */
+.header{
+  margin-top: 0;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  background-color: #F55A5A;
+  color: white;
+  width: 100%;
+  gap: 10px;
+}
+/* HEADER ICON (GOLBE) */
+.globe-icon{
+  width: 40px;
+  height: 40px;
+
+}
+
+
+
+
+
+/* Card Body  */
+
+.card-container{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 95%;
+  height: 300px;
+  border-top: 0.1px solid #F5F5F5;
+  border-bottom: 0.1px solid #918E9B;
+}
+
+/* We have 2 divided card into 2 parts */
+
+/* 1st LEFT */
+.card-left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  height:90%;
+  margin: 10px;
+}
+
+/* Part of card left section */
+.card-image{
+  height:270px;
+  width:170px;
+  object-fit: cover;
+  border-radius: 10px;  
+}
+
+/* 2nd RIGTH */
+.card-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  height: 90%;
+  padding:10px ;
+}
+.icon{
+  height: 20px;
+  width: 20px;
+}
+
+.card-right-top{
+  font-family:sans-serif;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+
+
+.card-right-top > p{
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+.card-right-top > a{
+  color: #918E9B;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.card-right-location{
+  margin-bottom: 10px;
+}
+
+.card-right-description{
+  font-family: 'Lucida Console', monospace;
+  font-weight: 300;
+  font-size: 15px;
+  font-style: normal;
+}
