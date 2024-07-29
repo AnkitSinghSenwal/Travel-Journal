@@ -139,3 +139,86 @@
   font-size: 15px;
   font-style: normal;
 }
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+
+  .page{
+    width:400px;
+  }
+  .header {
+    font-size: 18px;
+    padding: 15px 0;
+  }
+
+  .card-container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .card-left {
+    width: 100%;
+    max-width: none;
+  }
+
+  .card-right {
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .card-image {
+    height: 300px;
+    /* width: 40%; */
+  }
+
+  .card-right-top > p {
+    font-size: 18px;
+  }
+
+  .card-right-top > a {
+    font-size: 16px;
+  }
+
+  .card-right-description {
+    font-size: 12px;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    font-size: 16px;
+    padding: 10px 0;
+  }
+
+  .card-container {
+    padding: 5px;
+  }
+
+  .card-left {
+    width: 100%;
+  }
+
+  .card-right {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .card-image {
+    height: 150px;
+  }
+
+  .card-right-top > p {
+    font-size: 16px;
+  }
+
+  .card-right-top > a {
+    font-size: 14px;
+  }
+
+  .card-right-description {
+    font-size: 10px;
+  }
+}
