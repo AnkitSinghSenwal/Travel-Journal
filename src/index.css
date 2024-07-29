@@ -142,11 +142,13 @@
 
 
 /* Media Queries */
-@media (max-width: 768px) {
+
+@media (max-width: 850px) {
 
   .page{
     width:400px;
   }
+
   .header {
     font-size: 18px;
     padding: 15px 0;
@@ -169,8 +171,10 @@
   }
 
   .card-image {
-    height: 300px;
+    /* height: 300px; */
     /* width: 40%; */
+    height: 90%;
+    width: 90%;
   }
 
   .card-right-top > p {
@@ -188,6 +192,11 @@
 }
 
 @media (max-width: 480px) {
+  
+  .page{
+    width:100%;
+  }
+  
   .header {
     font-size: 16px;
     padding: 10px 0;
@@ -207,7 +216,10 @@
   }
 
   .card-image {
-    height: 150px;
+    /* height: 150px; */
+    height: 90%;
+    width: 90%;
+
   }
 
   .card-right-top > p {
