@@ -1,3 +1,4 @@
+import React from 'react'
 import globe from '../assets/globe.svg'
 
 export default function Header(){

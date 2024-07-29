@@ -3,7 +3,7 @@
 // import viteLogo from '/vite.svg'
 import './App.css'
 import Card from './Component/Card.jsx'
-import Data from './assets/Data.js'
+import Data from './assets/Data.jsx'
 import Header from './Component/Header.jsx'
 
 function App() {
