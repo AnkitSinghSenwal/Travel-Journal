@@ -6,7 +6,7 @@ export default [
         startDate: "12 Jan, 2021",
         endDate: "24 Jan, 2021",
         description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
-        imageUrl: "https://media.istockphoto.com/id/686149806/photo/mt-fuji-japan.jpg?s=1024x1024&w=is&k=20&c=-OMDrvCY6rSfDTMtBO_xebd7GGNcPDXaCu_MlNfy5x8="
+        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/b/b3/Mount_Fuji_from_Omiya_by_Kusakabe_Kimbei_c1890.png"
     },
     {
         title: "Eiffel Tower",
@@ -15,7 +15,7 @@ export default [
         startDate: "01 Feb, 2021",
         endDate: "10 Feb, 2021",
         description: "The Eiffel Tower is one of the most recognizable structures in the world, located in Paris, France. It is a wrought-iron lattice tower on the Champ de Mars, named after the engineer Gustave Eiffel.",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg/375px-Tour_Eiffel_Wikimedia_Commons_%28cropped%29.jpg"
+        imageUrl: "https://www.toureiffel.paris/themes/custom/tour_eiffel/build/images/hero-home-new-sm@2x.jpg"
     },
     {
         title: "Statue of Liberty",
@@ -24,7 +24,7 @@ export default [
         startDate: "05 Mar, 2021",
         endDate: "15 Mar, 2021",
         description: "The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York Harbor in New York City, in the United States.",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Statue_of_Liberty_frontal_2.jpg"
+        imageUrl: "https://www.nps.gov/common/uploads/grid_builder/stli/crop1_1/1088F90F-A638-22FA-25D2F44F5DFD1D49.jpg?width=640&quality=90&mode=crop"
     },
     {
         title: "Great Wall of China",
@@ -51,6 +51,6 @@ export default [
         startDate: "01 Jun, 2021",
         endDate: "10 Jun, 2021",
         description: "Christ the Redeemer is an Art Deco statue of Jesus Christ in Rio de Janeiro, Brazil. It is 30 meters (98 ft) high, excluding its 8-meter (26 ft) pedestal.",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Christ_the_Redeemer_-_Cristo_Redentor.jpg"
+        imageUrl: "https://cdn.thecollector.com/wp-content/uploads/2021/12/christ-the-redeemer-statue-rio-1-scaled.jpg"
     }
 ]
