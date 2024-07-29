@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
-import Card from './Component/Card.jsx'
-import Data from './assets/Data.jsx'
+import Card from './Component/Cards.jsx'
+import Data from './assets/Data.js'
 import Header from './Component/Header.jsx'
 
 function App() {
