@@ -6,7 +6,7 @@ export default function Card(props) {
     const { Data } = props;
     console.log(Data);  // Log the data to check its structure
     const cardData = Data.map((item, index) => (
-        
+
         <div key={index} className="card-container">
             
             <div className="card-left" >
