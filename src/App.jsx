@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import Card from './Component/Cards.jsx'
+import Card from './Component/Card.jsx'
 import Data from './assets/Data.js'
 import Header from './Component/Header.jsx'
 
@@ -8,10 +8,11 @@ function App() {
   return (
     <div className='page'>
       <Header/>
-      <Card
-      id = {Data.title}
-      Data = {Data}
-      />
+      {
+        Data.map((item, index) => (
+          <Card id={index} item={item}/>
+        ))
+      }
     </div>
   )
 }
