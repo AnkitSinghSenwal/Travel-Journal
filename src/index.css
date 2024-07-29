@@ -141,6 +141,7 @@
   font-weight: 300;
   font-size: 15px;
   font-style: normal;
+  text-align: justify;
 }
 
 
@@ -203,7 +204,7 @@
   
   .header {
     font-size: 16px;
-    padding: 10px 0;
+    padding: 10px auto;
   }
 
   .card-container {
@@ -212,6 +213,7 @@
   }
 
   .card-left {
+    margin: 0;
     width: 100%;
   }
 
