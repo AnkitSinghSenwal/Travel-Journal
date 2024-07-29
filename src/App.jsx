@@ -10,7 +10,7 @@ function App() {
       <Header/>
       {
         Data.map((item, index) => (
-          <Card id={index} item={item}/>
+          <Card key={index} item={item}/>
         ))
       }
     </div>
